@@ -1,0 +1,111 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  position: absolute;
+  width: 800px;
+  left: calc(50% - 400px);
+  height: 500px;
+  top: calc(50% - 250px);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.mitad1 {
+  background-color: white;
+  padding: 40px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.mitad1 h1 {
+  color: #30cfcc;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.mitad1 .day {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 10px;
+}
+
+.mitad1 .texto {
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.mitad2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sub {
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+  border-bottom-left-radius: 10px;
+}
+
+.sub .mes{
+  color: white;
+  margin-bottom: 20px;
+  
+}
+
+.sub .peso{
+  color: white;
+  font-size: 35px;
+  margin-bottom: 10px;
+
+}
+
+.sub .peso span{
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.sub .full{
+  color:white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.sub a{
+  background-color:hsl(71, 73%, 54%);
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 120px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(0 0 0 / 0.2);
+}
+.why {
+  background-color: #30cfcc;
+  padding: 30px;
+  color: white;
+  border-bottom-right-radius: 10px;
+}
+
+.why ul{
+  color: hsl(204, 43%, 93%);
+  list-style: none;
+  line-height: 23px;
+  padding: 0;
+}
+
+
+
